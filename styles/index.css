@@ -66,7 +66,7 @@ body {
 
 @media screen and (max-width: 640px) {
   body {
-    grid-template-rows: 71vh auto;
+    grid-template-rows: 71vh 18vh;
   }
 
   .canvas {
