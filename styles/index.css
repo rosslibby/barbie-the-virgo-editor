@@ -1,6 +1,6 @@
 @font-face {
   font-family: Barbie;
-  src: url('./barbie.ttf');
+  src: url('../assets/barbie.ttf');
 }
 
 body {
