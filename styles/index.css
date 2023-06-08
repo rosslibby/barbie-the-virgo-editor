@@ -92,6 +92,10 @@ body {
   .control .input {
     padding: 1rem 2rem;
   }
+
+  .control label {
+    height: 100%;
+  }
 }
 
 .control-radios {
