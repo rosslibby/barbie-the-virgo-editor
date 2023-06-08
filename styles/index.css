@@ -102,6 +102,10 @@ body {
     box-sizing: border-box;
     display: flex;
   }
+
+  .at-symbol {
+    zoom: 2;
+  }
 }
 
 .control-radios {
