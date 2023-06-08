@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>BarbieTheVirgo | Text Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/e969d99d15.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="canvas">
+      <h1 id="text" contenteditable="true" style="font-size: 65px">BarbieTheVirgo</h1>
+    </div>
+    <div class="controls">
+      <div class="control">
+        <div class="input">
+          <input id="text-color" type="color" value="#ea73a8" />
+        </div>
+        <label>Color</label>
+      </div>
+      <div class="control">
+        <div class="input">
+          <input id="font-size" type="range" min="14" max="120" value="64" />
+        </div>
+        <label>Font size</label>
+      </div>
+      <div class="control">
+        <div class="input">
+          <input id="outline-size" type="range" min="1" max="24" value="9" />
+        </div>
+        <label>Outline size</label>
+      </div>
+      <div class="control">
+        <div class="input">
+          <input id="outline-color" type="color" value="#ffffff" />
+        </div>
+        <label>Outline color</label>
+      </div>
+      <div class="control">
+        <div class="input">
+          <input id="line-height" type="range" min="14" max="240" value="65" />
+        </div>
+        <label>Line height</label>
+      </div>
+      <div class="control">
+        <div class="input control-radios">
+          <input type="radio" name="justify" id="justify-left" value="left" />
+          <label for="justify-left"><i class="fas fa-align-left"></i></label>
+          <input type="radio" name="justify" id="justify-center" value="center" checked />
+          <label for="justify-center"><i class="fas fa-align-center"></i></label>
+          <input type="radio" name="justify" id="justify-right" value="right" />
+          <label for="justify-right"><i class="fas fa-align-right"></i></label>
+        </div>
+        <label>Justify</label>
+      </div>
+      <button class="control-button" id="save-to-image"><i class="fas fa-folder-arrow-down"></i>Download</button>
+    </div>
+
+    <script src="scripts/filesaver.min.js"></script>
+    <script src="scripts/dom-to-image.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
