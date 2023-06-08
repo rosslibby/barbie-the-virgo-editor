@@ -72,7 +72,7 @@ body {
 
 @media screen and (max-width: 640px) {
   body {
-    grid-template-rows: 70vh 18vh;
+    grid-template-rows: 72vh 18vh;
   }
 
   .canvas {
